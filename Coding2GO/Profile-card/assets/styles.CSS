@@ -128,3 +128,26 @@ body {
 .buttons .button:first-child:hover {
 	background-color: rgb(65, 211, 65);
 }
+
+.profile-card .analytics {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.analytics .data {
+	display: flex;
+	align-items: center;
+	color: #333;
+	padding: 0 20px;
+	border-right: 2px solid #e7e7e7;
+}
+
+.data i{
+	font-size: 18px;
+}
+
+.data:last-child {
+	border-right: none;
+	margin-right: 6px;
+}
