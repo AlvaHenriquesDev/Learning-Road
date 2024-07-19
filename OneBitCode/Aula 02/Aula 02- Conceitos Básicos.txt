@@ -1,0 +1,76 @@
+Sumário - Aula 02
+# Tipos de dados primitivos
+# Variáveis
+# Operadores matemáticos
+# Uso de Strings
+# Entrada e saída
+
+# TIPOS DE DADOS PRIMITIVOS #
+# String
+- Valor textual que funciona como uma lista de caracteres
+# Boolean
+- Valór lógico que pode ser verdadeiro(true) ou falso (false)
+# Number
+- Valor numérico que pode ser inteiro ou ponto flutuante
+# BigInt
+- Valor exclusivamente inteiro que permite ultrapassar o limite de tamanho do "number".
+# Null
+- Tipo usado para representar um valor nulo ou vazio
+# Undefined
+- Tipo usado para representar uma variável sem valor (não confundir com valor nulo)
+
+# VARIÁVEIS #
+# O que são variáveis?
+- Uma forma de guardar na memória valores para usá-los posteriormente no programa
+# Var, let ou const?
+
+# OPERADORES MATEMÁTICOS #
+# Aritiméticos: +, -, *, / e %
+# Agruoamento: ()
+# Atribuição: =, +=, -=, /= e %=
+# Incrementar: ++ e Decrementar --
+# Lógicos: ==, ===, !=, !==, >, >=, <, <=
+
+=> Escreva um programa JavaScript que peça ao usuário para inserir uma frase usando o promp(). Em seguida, o programa deve contar o número de caracteres na frase (incluindo espaços em branco) e exibir esse número usando alert()
+
+let frase = prompt("Insira uma frase")
+
+alert(A frase possui ${frase.lenght} caracteres (incluindo os espaços))
+------------------------------------------
+=> Escreva um programa Javascript que funcione como uma calculadora simples. O programa deve pedir ao usuário para inserir dois numeros usando o prompt(), realizar as 4 operações matemáticas (adição, subtração, multiplicação e divisão) com esses números e exibir o resultado usando alert().
+
+const num1 = parseInt(prompt("Insira um numero"))
+const num2 = parseInt(prompt("Insira um numero"))
+const sum = num1 + num2
+const sub = num1 - num2
+const multi = num1 * num2
+const div = num1 / num2
+
+alert(`Os numeros foram: ${num1} e ${num2}
+Adição: ${num1} + ${num2} = ${sum}
+Subtração: ${num1} - ${num2} = ${sub}
+Multiplicação: ${num1} * ${num2} = ${multi})
+Divisão: ${num1} / ${num2} = ${div.toFixed(2)}`
+------------------------------------------
+=> Escreva um programa que seja capaz de calcular a área e o perímetro de um triângulo. O usuário deve inserir as informações necessarias e o programa exibirá os resultados.
+
+const altura = parseFloat(prompt("Insira a altura do triangulo (em cm)"));
+const base = parseFloat(prompt("Insira a altura do triangulo (em cm)"));
+
+alert(`A altura do Triangulo é de ${altura} cm
+A base do Triangulo é de ${base} cm
+A area total do triangulo é de ${(altura * base/2)} cm`)
+--------------------------------------------
+
+=> Escreva um programa que seja capaz de calcular desconto. O usuário insere o valor da compra e a porcentagem do desconto e recebe o valor do desconto e o total.
+
+const valorProd = parseFloat(promp("Insira o Valor (em Reais do produto): "))
+const porcDesc = parseFloat(promp("Insira o percentual de desconto (%): "))
+let valorDesc = valorProd * (porDesc/100)
+let valorFim = valorProd - valorDesc;
+
+alert(`
+O valor do Produto é de R$ ${valorProd}
+O desconto é de R$ ${valorDesc}
+O Preço total foi de R$ ${valorFim}
+`)

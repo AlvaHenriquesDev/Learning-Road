@@ -1,0 +1,35 @@
+Sumário - Aula 01
+# O que é o Javascript?
+# Por que aprender Javascript?
+# Instalaão e uso
+# Seu primeiro código Javascript
+# Javascript no terminal Node.js
+
+# INTRODUÇÃO AO JS #
+# O que é o Javascript?
+- Uma linguagem de programaçao, ou seja, um conjunto de codigos com instruções para o computador
+# A Linguagem da Web
+- Criada na década de 90 para ser usada no navegador Netscape e fornecer mais dinamismo e interatividade às paginas web.
+# Flexível e Dinâmica
+- De alto nível, multiparadigma e com tipagem fraca e Dinâmica.
+# Diversas Possibilidades
+- Pode ser usada fora do navegador com Node.js e é possível usá-la para criar aplicações desktop e mobile.
+
+# POR QUE APRENDER JAVASCRIPT? #
+# Fácil de Começar
+- Javascript é uma linguagem simples e flexível, boa para aprender o básico da programação
+# Moderna e Evoluindo:
+- Javascript é uma linguagem que se atualizou e continua se atualizando. Sendo muitp poderosa e atual.
+# Ùtil na Carreira
+- Pode ser usada em varias áreas além da programaçao Web
+
+# COMO USAR O JAVASCRIPT? #
+# Diretamente no Navegador
+- O navegador é capaz de interpretar o código JS dos sites e também podemos executar código através do console.
+# Através do Node.js 
+- Node.js é uma ferramenta que podemos instalar para executar codigo JS em nosso computador
+# Bônus: CodePen
+- Aplicativo web que permite escrever e testar codigo com as inguagens web HTML, CSS e Javascript
+
+=> Crie uma pagina HTML que, ao ser carregada exiba o seguinte alerta: 
+    "Começando meus estudos de JavaScript"

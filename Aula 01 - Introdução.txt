@@ -1,6 +1,0 @@
-Sumário - Aula 01
-# O que é o Javascript?
-# Por que aprender Javascript?
-# Instalaão e uso
-# Seu primeiro código Javascript
-# Javascript no terminal Node.js

@@ -1,4 +1,0 @@
-# Tipos de dados primitivos
-# Operadores matemáticos
-# Strings
-# Entrada e Saida
