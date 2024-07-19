@@ -1,0 +1,46 @@
+Sumário - Aula 02
+# Expressões Lógicas
+# Estruturas condicionais
+# If/ Else e Switch / Case
+# Estruturas de repetição
+# While, do while e for
+
+# OPERADORES LÓGICOS #
+# E (AND)
+- true %% true === true
+- true %% false === false
+- false %% true === false
+- false %% false === false
+# Ou (OR)
+- true || true === true
+- true || false === true
+- false || true === true
+- false || false === false
+# Não(NOT)
+!true === false
+!false === true
+
+# ESTRUTURAS CONDICIONAIS #
+# O que são estruturas condicionais?
+- Um recurso da linguagem que permite executar um bloco de código apenas se uma determinada expressão for verdadeira.
+# If / Else
+- Usado para casos onde temos uma condição simples (se/ senão)
+# Switch / Case
+- Usado para casos onde queremos várias condições possiveis já conhecidas.
+
+# ESTRUTURAS DE REPETIÇÂO #
+# O que são estruturas de repetição?
+- Um recurso da linguagem que permite executar um mesmo bloco de código várias vezes até que uma condição seja satisfeita.
+# While e Do / While
+- Repete a execução ENQUANTO a condição for verdadeira
+# For
+- Repete a execução PARA um conjunto previsível de condições e regras
+
+=> Escreva um programa em JavaScript que solicite ao usuário um numero e exiba a tabuada desse número de 1 a 10.
+
+=> Escreva um programa em JavaScript que peça ao usuário para inserir um número inteiro positivo e, em seguida, calcule o fatorial desse número usando um loop for e exiba o resultado.
+
+=> Crie um programa que solicita ao usuário que insira notas de alunos e, quando ele inserir -1, o programa calcula e exibe a média das notas.
+
+=> Crie um jogo onde o computador gera um número aleatório entre 1 e 100 e o usuário tem um número limitado de tentativas para adivinhar o número. O programa deve informar se o palpite do usuário é maior ou menor.
+obs: para gerar um numero aleatório pesquise sobre as funçoes Math.random() e Math.floor() do JavaScript.
