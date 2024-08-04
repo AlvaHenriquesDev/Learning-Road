@@ -7,7 +7,8 @@ const horario = horas + ":" + minutos
 
 elemHorario.innerText = horario
 }
-atualizarHoras()
+
+
 
 function verificarHorario() {
     // Obtém a hora atual
@@ -17,8 +18,8 @@ function verificarHorario() {
     let minutoAtual = agora.getMinutes();
 
     // Define o horário desejado (por exemplo, 14:30)
-    let horaDesejada = 9;
-    let minutoDesejado = 20;
+    let horaDesejada = 19;
+    let minutoDesejado = 0;
 
     // Verifica se o horário atual é igual ao horário desejado
     if (horaAtual === horaDesejada && minutoAtual === minutoDesejado) {
@@ -27,6 +28,9 @@ function verificarHorario() {
 }
 
 setInterval(() => {
-    atualizarHoras()
-    verificarHorario()
+    atualizarHoras();
+    verificarHorario();
     }, 5000 )
+
+
+
