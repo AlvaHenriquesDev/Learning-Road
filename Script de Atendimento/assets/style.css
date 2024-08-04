@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --plano-de-fundo: hsl(221, 60%, 33%);
-    --plano-de-fundo2: hsl(221, 43%, 51%);
-    --plano-de-fundo3: hsl(221, 78%, 18%);
+    --plano-de-fundo: hsl(0, 0%, 24%);
+    --plano-de-fundo2: hsl(0, 3%, 8%);
+    --plano-de-fundo3: hsl(0, 0%, 0%);
     --text-font: hsl(100, 100%, 100%);
  }
 
@@ -21,7 +21,7 @@ html {
     background: linear-gradient(75deg, var(--plano-de-fundo3), var(--plano-de-fundo2), var(--plano-de-fundo)) fixed;
 }
 
-h1, h2 {
+h1, h2, h3{
     color: var(--text-font);
     position: relative;
     width: 50%;
@@ -81,7 +81,10 @@ a {
     text-decoration: none;
 }
 
-textarea {
-    display: flexbox;
-    margin: 10px auto
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
