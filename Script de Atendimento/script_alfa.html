@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.3">
+  <link rel="stylesheet" href="./assets/style.css">
+	<link rel="icon" type="image/x-icon" href="https://assine2.vocetelecom.com.br/assets/img/favicon.png">
+  <title>Script de Atendimento</title>
+</head>
+<body>
+  <header>
+  
+	<nav>
+			<button><a href="https://app2.vocetelecom.vc/" target="_blank" class="">INTEGRATOR</a></button>
+			<button><a href="https://assine2.vocetelecom.com.br/" target="_blank" class="link sistemas">CRM</a></button>
+			<button><a href="http://360.vocetelecom.net.br/getec/index/" target="_blank" class="">GETEC</a></button>
+			<button><a href="http://zabbix.vocetelecom.local/zabbix/zabbix.php?action=dashboard.list" target="_blank" class="">ZABBIX</a></button>
+			<button><a href="http://10.2.199.22/" target="_blank" class="">ZABBIX LEGADA</a></button>
+			<button><a href="http://186.216.160.60:8000/zabbix/zabbix.php?action=problem.view&ddreset=1" target="_blank">ZAB - CORP</a></li></button>
+			<button><a href="https://glpi.vocetelecom.vc/glpi" target="_blank">GLPI</a></button>
+			<button><a href="http://10.2.199.7:3000/" target="_blank">GRAFANA</a></button>
+	</nav>
+	<h1>SCRIPT DE ATENDIMENTO</h1>
+	<p id="hora">Hora:</p>
+	<p class="horario"></p>
+	<h2>Chat</h2>
+	<nav>
+		<input type="text" value="Bom dia! Em que posso ajudar?" id="bomDia">
+		<button onclick="copy1()">Bom dia</button>
+		<input type="text" value="Boa tarde! Em que posso ajudar?" id="boaTarde">
+		<button onclick="copy2()">Boa tarde</button>
+		<input type="text" value="Boa noite!! Em que posso ajudar?" id="boaNoite">
+		<button onclick="copy3()">Boa noite</button>
+		<input type="text" value="Algo mais que eu possa ajudar??" id="algoMais">
+		<button onclick="copy4()">Algo mais?</button>
+		<input type="text" value="Obrigado por escolher a Voce Telecom!" id="obrigado">
+		<button onclick="copy5()">Obrigado!</button>
+	</nav>
+	<h2>Senhas e Logins:</h2>
+	<nav>
+		<input type="text" value="10.2.199.70" id="loginAMS">
+		<button onclick="ams()">IP AMS</button>
+		<input type="text" value="alvaro.neto" id="login">
+		<button onclick="login()">login</button>
+		<input type="text" value="uZAoX0uSPtfJHD" id="password">
+		<button onclick="password()">Senha</button>
+		<input type="text" value="AdminGPON" id="logGPON">
+		<button onclick="logGpon()">Login GPON</button>
+		<input type="text" value="@7zypt94b23!@#" id="senhaGPON">
+		<button onclick="gpon()">Senha GPON</button>
+		<input type="text" value="user" id="logDatac">
+		<button onclick="logDatac()">User</button>
+		<input type="text" value="AdminGPON" id="logGPON">
+		<button onclick="logGpon()">Senha Datacom</button>
+	</nav>
+	<h2>Scripts:</h2>
+	<nav>
+		<input type="text" value="DESCONEXÃO O.N.U. (CHECAR CABEAMENTO E VERIFICAR CONDIÇÕES DE USO DOS EQUIPAMENTOS DA VOCÊ TELECOM) CLIENTE ESTÁ CIENTE QUE CASO SEJA DETECTADO PROBLEMAS NÃO ADVINDO DOS EQUIPAMENTOS DA VOCÊ TELECOM SERÁ COBRADA TAXA DE VISITA TÉCNICA NO VALOR DE R$75,00 - CIENTE AINDA SOBRE O PRAZO DE 48HS PARA CUMPRIMENTO DO CHAMADO." id="os">
+		<button onclick="ordemServico()">O.S.</button>	
+	</nav>
+
+</header>
+<div id="container">
+	<h2>Atendimentos</h2>				
+	
+	<textarea cols="50" rows="15">OPERADOR: ÁLVARO NETO
+CARGO: SUPORTE N3 (CORPORATIVO)
+CANAL DE ATENDIMENTO: 
+
+RELATO CLIENTE:
+-
+
+ANALISE E PROCEDIMENTOS:
+- 
+
+INFO DE AGENDAMENTO:		</textarea>
+	
+<textarea cols="50" rows="10">*ABERTA O.S*
+PROTOCOLO: 
+CLIENTE: 
+MOTIVO: *DESCONEXÃO*
+PLANO: 
+ABERTURA: 
+ENDEREÇO:  -  - ** - 
+REFERENCIA: 
+HORARIO: 
+CONTATO: 
+EQUIPAMENTO: 
+					</textarea>
+				</label>
+		
+	</section>
+</div>
+
+<script src="./assets/clipboard.js"></script>
+<script src="./assets/horas.js"></script>
+
+</script>
+</body>
+</html>
