@@ -72,3 +72,17 @@ section nav h2{
 section nav h2 span{
     margin-left: 5px
 }
+
+.zabbix{
+    position: absolute;
+    top: 25px;
+    right: 35%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
+
+.zabbix li {
+    list-style: none;
+}
