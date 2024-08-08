@@ -56,21 +56,28 @@ section nav .sistemas {
     display: flex;
     list-style: none;
     position: relative;
+    margin: auto;
 }
 
 section nav .sistemas li{
     margin: 0 10px;
 }
 
-section nav h2{
+section nav .sistemas h2{
     position: absolute;
     top: 20px;
     right: 20px;
     justify-content: flex-end;
 }
 
-section nav h2 span{
+section nav .sistemas h2 span{
     margin-left: 5px
+}
+
+section nav .atts{
+    display: flexbox;
+    position: absolute;
+    top: 10%;
 }
 
 .zabbix{
@@ -84,5 +91,5 @@ section nav h2 span{
 }
 
 .zabbix li {
-    list-style: none;
+    list-style: none
 }

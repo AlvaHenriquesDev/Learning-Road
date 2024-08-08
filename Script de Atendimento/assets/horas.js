@@ -1,3 +1,5 @@
+
+// Captação de dados de hora e minutos
 const elemHorario = document.querySelector(".horario")
 
 function atualizarHoras() {
@@ -9,6 +11,7 @@ elemHorario.innerText = horario
 }
 atualizarHoras()
 
+// Definição de alarme
 function verificarHorario() {
     // Obtém a hora atual
     let agora = new Date();
@@ -16,7 +19,7 @@ function verificarHorario() {
     console.log()
     let minutoAtual = agora.getMinutes();
 
-    // Define o horário desejado (por exemplo, 14:30)
+    // Define o horário desejado
     let horaDesejada = 9;
     let minutoDesejado = 20;
 
@@ -26,6 +29,7 @@ function verificarHorario() {
     }
 }
 
+// atualiza o horario e aplica verificação para alarme definido
 setInterval(() => {
     atualizarHoras()
     verificarHorario()
